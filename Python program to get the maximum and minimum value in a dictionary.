@@ -1,0 +1,9 @@
+# Write a Python program to get the maximum and minimum value in a dictionary.
+d = {1: 3, 4: 6, 6: 8, 7: 3}
+c = list(d.values())
+d = list(d.keys())
+e = c + d
+e.sort()
+print(e)
+print("MIN VALUE IS--: ", e[0])
+print("MAX VALUE IS--: ", e[-1])
