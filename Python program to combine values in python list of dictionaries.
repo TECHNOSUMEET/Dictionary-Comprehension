@@ -1,0 +1,18 @@
+"""
+Write a Python program to combine values in python list of dictionaries. Go to the editor
+Sample data: [{'item': 'item1', 'amount': 400}, {'item': 'item2', 'amount': 300}, {'item': 'item1', 'amount': 750}]
+Expected Output: Counter({'item1': 1150, 'item2': 300})
+"""
+sample_data = [{'item': 'item1', 'amount': 400}, {'item': 'item2', 'amount': 300}, {'item': 'item1', 'amount': 750}]
+op = dict()
+amount = 0
+amount2 = 0
+for i in range(len(sample_data)):
+    if sample_data[i]['item'] == 'item1':
+        amount += sample_data[i]['amount']
+        op['item1'] = amount
+    elif sample_data[i]['item'] == 'item2':
+        amount2 += sample_data[i]['amount']
+        op['item2'] = amount2
+
+print(op)
