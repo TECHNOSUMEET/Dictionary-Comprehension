@@ -1,0 +1,5 @@
+# Write a Python script to merge two Python dictionaries.
+d={1:'i'}
+d1={2:'g'}
+d.update(d1)
+print(d)
