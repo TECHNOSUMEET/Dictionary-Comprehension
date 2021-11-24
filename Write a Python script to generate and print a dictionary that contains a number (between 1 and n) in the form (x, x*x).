@@ -1,0 +1,8 @@
+"""Write a Python script to generate and print a dictionary that contains a number (between 1 and n)
+in the form (x, x*x)."""
+d = dict()
+num = int(input('ENTER LENGTH OF DICTIONARY--:'))
+for x in range(num):
+    d[x] = x**2
+
+print(d)
