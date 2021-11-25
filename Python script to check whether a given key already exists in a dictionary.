@@ -1,0 +1,6 @@
+# Write a Python script to check whether a given key already exists in a dictionary.
+d1 = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+check_val = int(input('ENTER KEY VALUE TO CHECK IN DICTIONARY--: '))
+if check_val in d1:
+    print('KEY IS PRESENT')
+    print('VALUE FOR KEY --: ', d1[check_val])
