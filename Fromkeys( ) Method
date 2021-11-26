@@ -1,0 +1,3 @@
+s='sumeet'
+d=dict()
+print(d.fromkeys(s, 1))
