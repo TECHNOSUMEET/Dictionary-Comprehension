@@ -1,0 +1,11 @@
+d1 = {2: 'b', 4: 'd', 1: 'a', 3: 'c'}
+d2={}
+l1=list (d1.keys())
+l2=list (d1.values())
+l1.sort()
+print(d1)
+for i in l1:
+    if i in d1:
+        d2[i]=d1[i]
+
+print(d2)
